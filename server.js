@@ -19,7 +19,6 @@ mongoose.connect(db.database)
 
 // Session Middleware
 app.use(session({
-    secret:'project1',
     resave:true,
     saveUninitialized:true,
     cookie:{
